@@ -1,16 +1,67 @@
-# React + Vite
+# Fruit Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to search for fruits using a public API. The app fetches matching fruit names as the user types and displays the results dynamically.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Search fruits by name
+* Debounced API requests (700ms delay)
+* Real-time search results
+* Built with React Hooks (`useState` and `useEffect`)
+* Responsive and clean UI
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS
+* Fetch API
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/rishirana463-hub/Fruits-Search.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd fruit-search-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## API
+
+This project uses the FreeCodeCamp Fruit Search API:
+
+```
+https://fruit-search.freecodecamp.rocks/api/fruits
+```
+
+## Project Structure
+
+```
+src/
+├── App.jsx
+├── FruitsSearch.jsx
+├── index.css
+└── main.jsx
+```
+
+## Author
+
+Rishi
